@@ -1,0 +1,61 @@
+body{
+    align-content: center;
+    justify-content: center;
+   display: flex;
+}
+#container{
+    display: flex;
+  
+    height: 400px;
+    width:370px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px solid gray;
+    border-radius: 15px;
+}
+#but{
+    height: 180px;
+    width:400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+ 
+    
+   }
+button{
+height: 30px;
+width: 80px;
+margin-right: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+align-items: center;
+display: flex;
+flex-grow: 1;
+flex-shrink: 0;
+flex-direction: column;
+}
+#opera{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+
+}
+#opera button{
+    height:30px;
+    width:67px
+}
+
+#result{
+    display:flex;
+    border: 2px solid lightslategrey;
+    height:100px;
+    width: 380px;
+   
+ align-items:center;
+ justify-content: flex-end;
+   
+}
+
+
